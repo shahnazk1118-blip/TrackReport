@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap — Learning Journey</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="tab-bar">
+  <span class="tab-bar-brand">~/<strong>learning-journey</strong></span>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">menu ☰</label>
+  <ul class="tabs">
+    <li><a class="tab" href="index.html"><span class="tab-dot html"></span>home.html</a></li>
+    <li><a class="tab active" href="roadmap.html"><span class="tab-dot css"></span>roadmap.html</a></li>
+    <li><a class="tab" href="projects.html"><span class="tab-dot js"></span>projects.html</a></li>
+    <li><a class="tab" href="daily-log.html"><span class="tab-dot jsx"></span>daily-log.html</a></li>
+    <li><a class="tab" href="resources.html"><span class="tab-dot md"></span>resources.html</a></li>
+  </ul>
+</nav>
+
+<main>
+  <p class="eyebrow">roadmap.html</p>
+  <h1>My learning roadmap</h1>
+  <p class="lede">Five stages, in order. Each one builds on the last — I'm not skipping ahead until the current stage actually sticks.</p>
+
+  <ul class="commit-list">
+    <li class="commit-card done">
+      <div class="commit-top">
+        <span class="commit-hash">#h1a9f3</span>
+        <span class="commit-title">HTML</span>
+        <span class="status-badge done">done</span>
+      </div>
+      <p class="commit-desc">Semantic structure, forms, accessibility basics. Built five static pages from scratch.</p>
+    </li>
+    <li class="commit-card done">
+      <div class="commit-top">
+        <span class="commit-hash">#c3e771</span>
+        <span class="commit-title">CSS</span>
+        <span class="status-badge done">done</span>
+      </div>
+      <p class="commit-desc">Flexbox, Grid, responsive layout, and just enough animation to make things feel alive.</p>
+    </li>
+    <li class="commit-card progress">
+      <div class="commit-top">
+        <span class="commit-hash">#9b04de</span>
+        <span class="commit-title">JavaScript</span>
+        <span class="status-badge progress">in progress</span>
+      </div>
+      <p class="commit-desc">DOM manipulation, events, fetch &amp; APIs. Currently rebuilding a to-do app for the third time, on purpose.</p>
+    </li>
+    <li class="commit-card">
+      <div class="commit-top">
+        <span class="commit-hash">#2f88a0</span>
+        <span class="commit-title">React</span>
+        <span class="status-badge queued">queued</span>
+      </div>
+      <p class="commit-desc">Components, props, state, hooks. Goal: rebuild the projects page from this site as a React app.</p>
+    </li>
+    <li class="commit-card">
+      <div class="commit-top">
+        <span class="commit-hash">#5d61c4</span>
+        <span class="commit-title">Tailwind</span>
+        <span class="status-badge queued">queued</span>
+      </div>
+      <p class="commit-desc">Utility-first styling. Goal: ship a small SaaS landing page using it end to end.</p>
+    </li>
+  </ul>
+</main>
+
+<footer class="status-bar">
+  <span>main · 12 day streak 🔥</span>
+  <span>UTF-8 · Built with HTML &amp; CSS</span>
+</footer>
+
+</body>
+</html>
